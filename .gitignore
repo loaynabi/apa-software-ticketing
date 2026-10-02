@@ -1,0 +1,26 @@
+# Deployment credentials and account-specific configuration
+.session_secret
+deploy_config.json
+cf.token
+account.txt
+*.token
+*.secret
+.dev.vars
+.env
+.env.*
+!.env.example
+
+# Private user/team data and generated credentials
+users.json
+users_seed.json
+team.csv
+credentials*.txt
+initial-credentials.txt
+private-data/
+
+# Local development and Python artifacts
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.wrangler/
